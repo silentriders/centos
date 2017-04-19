@@ -20,7 +20,7 @@ echo "-----------------------------------------";
 data=( `ps aux | grep "\[priv\]" | sort -k 72 | awk '{print $2}'`);
 
 echo "------------ OpenSSH login --------------";
-echo "-----------------------------------------";
+echo "----------------------------------
 for PID in "${data[@]}"
 do
         #echo "check $PID";
@@ -35,7 +35,4 @@ done
 echo "Untuk kill user log in, gunakan command  ";
 echo "kill -9 (nomerid)                        ";
 echo "contoh : kill -9 28651 ";
-echo "-----------------------------------------";
-echo "--------------  Indoworx  ---------------";
-echo "----------  www.indoworx.com  -----------";
-echo "-----------------------------------------";
+echo "Script by Gilang Erlangga M";
